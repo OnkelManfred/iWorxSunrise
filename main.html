@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<link rel="stylesheet" href="main.css">
+		 <meta name="viewport" content="width=device-width">
+	</head>
+	<body>
+		<header>
+		<div class="divHeader marginSite">
+			<div id="divLogoHeader">
+				<h1>Logo</h1>
+			</div>
+			<div>
+				<nav >
+					<ul class="navHeader">
+						<li>Home</li>
+						<li>About</li>
+						<li>Services</li>
+						<li>Contract</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="languageSelector">
+				DE
+			</div>
+			<div onclick="hamburgerToX(this)" class="menu-icon">
+    			<div class="line1"></div>
+    			<div class="line2"></div>
+    			<div class="line3"></div>
+			</div>
+		</div>
+		<div class="marginSite navHeader menu-icon">
+			<nav >
+				<ul id="navHeader400px" class="divHeader marginSite navHeader">
+					<li>Home</li>
+					<li>About</li>
+					<li>Services</li>
+					<li>Contract</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+		<div class="marginSite"> 
+			<img id="imgContentMain" src="images/sunrise.png">	
+		</div>
+		<div class="divContent marginSite">
+			<div class="divTextContent">
+				<div class="contentTitleSmall">WELCOME TO OUR</div><br>
+				<div class="contentTitleBig">NEW WEBSITE</div>
+				
+				<div class="contentText contentSpace">
+					Lorem ipsum dolor sit amet consectetur. Ultrices fames aenean eget sodales ut volutpat dignissim. Tempus massa mi justo auctor nam consequat. Id purus arcu ligula vel. Pellentesque tristique vel in in tempor purus sit molestie. Dictum at scelerisque bibendum turpis at convallis massa neque aenean.
+				</div>
+				<div class="contentText contentSpace">
+					Netus feugiat tellus adipiscing quisque neque tellus. Orci mi a sapien lacus quis at commodo. Gravida dui vestibulum faucibus suspendisse eu quis aenean sapien est. Pellentesque porttitor integer at convallis imperdiet. In ac pellentesque sollicitudin pellentesque ut. Etiam magna ornare nullam sodales cras. Neque rutrum tincidunt et interdum mattis integer.
+				</div>
+			</div>
+			<div class="divImgContentSide">
+				<img class="imgContentSide"  src="images/sunrise.png">
+			</div>
+		</div>
+		<footer>
+		<div class="divFooter marginSite">
+			<div id="divLogoFooter">
+				<h1>Logo</h1>
+			</div>
+			<div>
+				<nav >
+					<ul class="navFooter">
+						<li>Home</li>
+						<li>About</li>
+						<li>Services</li>
+						<li>Contract</li>
+					</ul>
+				</nav>
+			</div>
+			<div>
+				Created by <font class="redIWorx">iWorx</font>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		function hamburgerToX(x) {
+			x.classList.toggle("change");
+
+			document.getElementById("navHeader400px").classList.toggle("change")
+			document.getElementById("imgContentMain").classList.toggle("change")
+			document.getElementById("divLogoHeader").classList.toggle("change")
+		}
+		</script>
+	</body>
+	
+</html>
